@@ -1,5 +1,3 @@
-import 'package:equatable/equatable.dart';
-
 class Ticker {
   const Ticker();
   Stream<int> tick({required int ticks}) {
